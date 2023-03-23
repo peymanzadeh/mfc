@@ -214,6 +214,7 @@
   .facebook-btn .small-image {
     display: block;
     max-width:40px;
+    border-radius: 4px;
   }
 
   .facebook-btn .large-image {
@@ -222,23 +223,27 @@
 }
 
 @media (max-width: 480px) {
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
 
   .store-btn {
-    margin: 1px;
+    margin: 2px;
+  }
+
+  .store-btn:first-child {
+    margin-left:0px;
+  } 
+  .small-image:last-child {
+    margin-right:0px;
+
   }
 
   .store-btn img {
-    max-width: 120px;
+    max-width: 135px;
   }
 
   .facebook-btn .small-image {
-    max-width:40px;
+    max-width: 38px;
+    border-radius: 4px;
   }
 }
   
