@@ -230,15 +230,14 @@
   }
 
   .store-btn {
-    margin: 2px;
+    margin: 1px;
   }
 
   .store-btn img {
-    max-width: 140px;
+    max-width: 120px;
   }
 
   .facebook-btn .small-image {
-    display: block;
     max-width:40px;
   }
 }
